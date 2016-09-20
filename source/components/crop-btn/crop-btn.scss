@@ -1,0 +1,12 @@
+.action-btn {
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  background: linear-gradient(to bottom, #bfd255 0%, #8eb92a 50%, #72aa00 71%, #9ecb2d 100%);
+  color: #fff;
+
+  &:hover,
+  &:active {
+    background: linear-gradient(to bottom, #9ecb2d 0%, #72aa00 25%, #8eb92a 50%, #bfd255 100%);
+  }
+}
