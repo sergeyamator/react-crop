@@ -6,7 +6,7 @@ class UploadArea extends React.Component {
     return (
         <div className="upload-section">
           <div className="upload-crop-area">
-            <img src="" className="picture"/>
+            <img src={this.props.src || null} className="picture"/>
           </div>
         </div>
     );
