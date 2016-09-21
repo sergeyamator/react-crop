@@ -36,7 +36,6 @@ class CropArea extends React.Component {
     this._offsetX = e.nativeEvent.offsetX;
     this._offsetY = e.nativeEvent.offsetY;
 
-    console.log(e);
     document.body.addEventListener('mousemove', this._onMouseMove.bind(this));
     document.body.addEventListener('mouseup', this._onMouseUp.bind(this));
   };

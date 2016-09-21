@@ -4,7 +4,7 @@ require('./crop-btn.scss');
 class CropButton extends React.Component {
   render() {
     return (
-      <a className="action-btn" href="#">Crop</a>
+      <a className="action-btn" onClick={this.props.crop} href="#">Crop</a>
     );
   }
 }
